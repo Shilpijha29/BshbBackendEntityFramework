@@ -1,0 +1,21 @@
+{
+  "ConnectionStrings": {
+    "bshbContextString": "Server=YOUR_SERVER_NAME;Database=YOUR_DATABASE_NAME;User Id=YOUR_USER_ID;Password=YOUR_PASSWORD;Encrypt=False; MultipleActiveResultSets=True;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "BrevoApi": {
+    "ApiKey": "YOUR_API_KEY",
+    "SenderEmail": "YOUR_EMAIL@example.com",
+    "SenderName": "YOUR_SENDER_NAME"
+  },
+  "TextlocalApi": {
+    "ApiKey": "YOUR_API_KEY",
+    "SenderName": "YOUR_SENDER_NAME"
+  }
+}
